@@ -5,28 +5,30 @@
  */
 
 
-//Twoj komentarz ...
+//stworzenie funkcji "jeden"
 function jeden() {
 
-    //Twoj komentarz ...
+    //stworzenie zmiennej 'zmienna1' 
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //stworzenie funkcji o nazwie 'dwa'
     function dwa() {
 
-        //Twoj komentarz ...
+        //Wypisanie zawartości zmiennej 'zmienna1' w konsoli
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //stworzenie zmiennej 'zmienna2' z wartoscią 2
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //wywolanie funkcji 'dwa'
     dwa();
 
-    //Twoj komentarz ...
+    //wypisanie wartości zmiennej 'zmienna2' w konsoli
+    //funkcja 'jeden' probując wypisać wartość niewidocznej dla niej zmiennej zwraca błąd
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//wywołanie funkcji 'jeden'
 jeden()
+
